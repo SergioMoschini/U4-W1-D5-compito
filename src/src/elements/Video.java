@@ -3,11 +3,11 @@ package elements;
 public class Video extends Multimedia implements ElementoRiproducibile {
 
     private int brightness;
-    private int lenght;
+    private int length;
     private int volume;
-    public Video(String title, int lenght, int volume, int brightness){
+    public Video(String title, int length, int volume, int brightness){
         super(title);
-        this.lenght = lenght;
+        this.length = length;
         this.volume = volume;
         this.brightness = brightness;
 
@@ -20,14 +20,15 @@ public class Video extends Multimedia implements ElementoRiproducibile {
         volume++;
     }
 
-public void brightnessDown() {
+    public void brightnessDown() {
     brightness-- ;
 }
 public void brightnessUp() {
 brightness++ ;
 }
+@Override
 public void play() {
-    for (int i = 0; i < lenght; i++){
+    for (int i = 0; i < length; i++){
         System.out.print(title);
 
         for (int y = 0; y < volume; y++){
@@ -36,6 +37,6 @@ public void play() {
         for (int x = 0; x < brightness; x++ ){
             System.out.println("*");
         }
-        System.out.println("funziona tutto fino ad ora");
+        System.out.println("funzionano tutto i video");
     }
 }}

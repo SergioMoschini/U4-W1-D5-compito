@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="532cd6db-fabe-4abe-a981-5dc7484e9ff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/elements/ElementoRiproducibile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/elements/Multimedia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/elements/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/elements/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/elements/Image.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/playerMultimediale/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/elements/Multimedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/elements/Multimedia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/elements/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/elements/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/playerMultimediale/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/playerMultimediale/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1773391462257</updated>
       <workItem from="1773391463895" duration="334000" />
-      <workItem from="1773391904577" duration="5962000" />
+      <workItem from="1773391904577" duration="10446000" />
     </task>
     <servers />
   </component>
