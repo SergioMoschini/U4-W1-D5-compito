@@ -31,8 +31,8 @@ do {
         } else if (element instanceof Image) {
             ((Image) element).show();
         }
-    } else System.out.println("non esiste questo elemento, controlla di elemento, controlla di aver inserito un numero tra 1 e 5");
-} while (chooseelement != 0);
+    } else if (chooseelement >5) {System.out.println("non esiste questo elemento, controlla di elemento, controlla di aver inserito un numero tra 1 e 5");
+}else System.out.println("Programma terminato");} while (chooseelement != 0);
         System.out.println("Per stavolta ha funzionato, riprova, potrebbe esplodere tutto");
 
         scanner.close();
