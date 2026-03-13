@@ -1,0 +1,10 @@
+package elements;
+
+public abstract class Multimedia {
+/* */
+    protected String title;
+    public Multimedia(String title) {
+        this.title = title;
+    }
+
+}
