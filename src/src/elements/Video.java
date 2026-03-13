@@ -28,15 +28,27 @@ brightness++ ;
 }
 @Override
 public void play() {
-    for (int i = 0; i < length; i++){
+
+  /*  for (int i = 0; i < length; i++){
         System.out.print(title);
 
         for (int y = 0; y < volume; y++){
-            System.out.println("!");
+            System.out.print("!");
         }
         for (int x = 0; x < brightness; x++ ){
-            System.out.println("*");
+            System.out.print("*");
         }
-        System.out.println("funzionano tutto i video");
+        System.out.println();
+    }questo ciclo for e' un ciclo di "prova" sotto suggerimento del professore ho utilizzato il concatenamento
+    //al posto di print e println */
+    for (int i = 0; i < length; i++) {
+        String result = title;
+        for (int y = 0; y < volume; y++) {
+            result += "!";
+        }
+        for (int x = 0; x < brightness; x++) {
+            result += "*";
+        }
+        System.out.println(result);
     }
 }}

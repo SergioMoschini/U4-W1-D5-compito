@@ -7,10 +7,20 @@ public class Image extends Multimedia {
         super(title);
         this.brightness = brightness;
     }
-    public void play() {
-            for (int x = 0; x < brightness; x++ ){
-                System.out.println("*");
+    public void show() {
+
+           /* for (int x = 0; x < brightness; x++ ){
+                System.out.print(title+"*");
             }
-            System.out.println("funzionano le immagini");
+            System.out.println();*/
+
+            String result = title;
+
+            for (int x = 0; x < brightness; x++) {
+                result += "*";
+            }
+
+            System.out.println(result);
         }
-}
+        }
+

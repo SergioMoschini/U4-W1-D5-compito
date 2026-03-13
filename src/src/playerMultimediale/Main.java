@@ -17,9 +17,24 @@ Scanner scanner = new Scanner(System.in);
 int chooseelement;
 
 do {
-    
-}
+    System.out.println("Choose ur element between 1 and 5, type 0 to end the simulation");
+    chooseelement = scanner.nextInt();
+    /* la persona scrivera' 1 sul terminale, senza l'if sottostante verra' letto sempre il secondo
+    elemento dell'array, devo quindi "simulare" la scelta del primo elemento, per farlo sottraggo 1
+    al numero scelto dall'utente
+    */
+    if (chooseelement >= 1 && chooseelement <= 5) {
+        Multimedia element  = elements [ chooseelement - 1 ];
 
+        if (element instanceof ElementoRiproducibile) {
+            ((ElementoRiproducibile) element).play();
+        } else if (element instanceof Image) {
+            ((Image) element).show();
+        }
+    } else System.out.println("non esiste questo elemento, controlla di elemento, controlla di aver inserito un numero tra 1 e 5");
+} while (chooseelement != 0);
+        System.out.println("Per stavolta ha funzionato, riprova, potrebbe esplodere tutto");
 
+        scanner.close();
     }
 }

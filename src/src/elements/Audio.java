@@ -20,12 +20,25 @@ public class Audio extends Multimedia implements ElementoRiproducibile {
     }
     @Override
     public void play() {
+        /*
         for (int i = 0; i < length; i++) {
             System.out.print(title);
             for (int y = 0; y < volume; y++) {
-                System.out.println("!");
+                System.out.print("!");
             }
-            System.out.println("funzionano gli audio");
+            System.out.println();
         }
+   */
+        for (int i = 0; i < length; i++) {
+
+            String result = title;
+
+            for (int y = 0; y < volume; y++) {
+                result += "!";
+            }
+
+            System.out.println(result);
+        }
+
     }
 }
